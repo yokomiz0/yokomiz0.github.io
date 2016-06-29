@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TechAcademy受講者の課題用ポートフォリオ作成ページです">
+    <title>portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index2.css">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-lg-4"></div>
+            <div class="col-xs-6 col-lg-4"></div>
+            <div class="col-xs-12 col-lg-4"></div>
+
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <div>
+                        <a class="navbar-brand" href="index.html">Home</a>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index2.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="index3.html">Application(github)</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>portfolio</h1>
+            <div class="pic_bg">
+
+                <div class="pic"><img src="img/photo4.jpg">
+                    <div>
+                        <a href="#" class="btn pt1 btn-link" data-toggle="popover" title="yokomizo teruma" data-content="　横 溝　　英 馬">name</a>
+                    </div>
+                    <div>
+                        <a href="#" class="btn pt2 btn-link" data-toggle="popover" data-html="true" title="自己紹介" data-content="Born in Fukuoka, raised in Osaka<br>TechAcademy様で2ヶ月間<br>勉強させていただくことに<br>なりました。<br>よろしくお願いします
+                 ">profile</a>
+                    </div>
+                </div>
+
+                <script>
+                    $(document).ready(function() {
+                        $('[data-toggle="popover"]').popover();
+                    });
+                </script>
+
+                </div>
+        </div>
+        <div id="footer" style="padding:20px 20px">
+
+            <CENTER>
+
+                <p>#20160000.bootstrap</p>
+                </CENTER>
+            </div>
+    </div>
+
+</body>
+
+</html>
